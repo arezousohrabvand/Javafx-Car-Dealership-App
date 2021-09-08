@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="623.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CompanyListController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="951.0">
+         <children>
+            <TableView fx:id="my_table" layoutX="38.0" layoutY="76.0" prefHeight="439.0" prefWidth="862.0">
+               <columns>
+                  <TableColumn fx:id="name_Column" prefWidth="103.19997787475586" text="Name" />
+                  <TableColumn fx:id="street_Column" prefWidth="130.40003967285156" text="Street Name" />
+                  <TableColumn fx:id="city_Column" prefWidth="116.0" text="City" />
+                  <TableColumn fx:id="province_Column" prefWidth="77.5999755859375" text="Province" />
+                  <TableColumn fx:id="postal_Column" prefWidth="108.00006103515625" text="Postal Code" />
+                  <TableColumn fx:id="numbers_Column" prefWidth="135.20001220703125" text="Sold Numbers" />
+                  <TableColumn fx:id="price_Column" prefWidth="189.5999755859375" text="Price " />
+               </columns>
+            </TableView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="24.0" prefHeight="35.0" prefWidth="862.0" style="-fx-background-color: gray;" text="Company List" />
+            <Button layoutX="38.0" layoutY="564.0" mnemonicParsing="false" onAction="#deleteBtn" text="delete" />
+            <Button layoutX="99.0" layoutY="564.0" mnemonicParsing="false" onAction="#addNewCar" text="add" />
+            <TextField fx:id="nameTextField" alignment="CENTER" layoutX="35.0" layoutY="515.0" prefHeight="26.0" prefWidth="85.0" promptText="Name" />
+            <TextField fx:id="streetTextField" layoutX="121.0" layoutY="515.0" prefHeight="26.0" prefWidth="129.0" promptText="Street Name" />
+            <TextField fx:id="cityTextField" layoutX="251.0" layoutY="515.0" prefHeight="26.0" prefWidth="94.0" promptText="City" />
+            <TextField fx:id="provinceTextField" layoutX="346.0" layoutY="515.0" prefHeight="26.0" prefWidth="122.0" promptText="Province" />
+            <TextField fx:id="postalTextField" layoutX="467.0" layoutY="515.0" prefHeight="26.0" prefWidth="142.0" promptText="Postal code" />
+            <TextField fx:id="numbersTextField" layoutX="610.0" layoutY="515.0" prefHeight="26.0" prefWidth="114.0" promptText="Sold Numbers" />
+            <TextField fx:id="priceTextField" layoutX="725.0" layoutY="515.0" prefHeight="26.0" prefWidth="174.0" promptText="Price" />
+            <Button fx:id="detailBtn" layoutX="158.0" layoutY="564.0" mnemonicParsing="false" onAction="#goBtn" prefHeight="26.0" prefWidth="94.0" text="go to details" />
+            <Button layoutX="272.0" layoutY="565.0" mnemonicParsing="false" onAction="#back" text="Go Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

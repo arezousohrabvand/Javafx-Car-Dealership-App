@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="887.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AvailableCarsController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="944.0">
+         <children>
+            <AnchorPane layoutX="20.0" layoutY="20.0" prefHeight="626.0" prefWidth="942.0">
+               <children>
+                  <Label fx:id="myLabel" alignment="CENTER" layoutX="54.0" layoutY="25.0" prefHeight="46.0" prefWidth="830.0" style="-fx-background-color: gray;" text="All Cars">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="118.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Honda Mugen 2021" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="88.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Available Cars" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="236.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\\$65000+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="266.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Honda HRV 2021" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="384.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\$29,770+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="419.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Honda CRV 2021" />
+                  <ImageView fitHeight="152.0" fitWidth="146.0" layoutX="54.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/download.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="537.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\$46,839+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="214.0" layoutY="118.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Toyota Landcruiser 2021" />
+                  <ImageView fitHeight="152.0" fitWidth="146.0" layoutX="214.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/download%20(4).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="214.0" layoutY="236.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\$45000+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="266.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Toyota GR Supra 2021" />
+                  <ImageView fitHeight="152.0" fitWidth="146.0" layoutX="213.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/images%20(1).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="384.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\$52,839+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="419.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Toyot Venza 2021" />
+                  <ImageView fitHeight="152.0" fitWidth="146.0" layoutX="213.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/download%20(3).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="537.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\$36,839+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="373.0" layoutY="118.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Accura NSX 2021" />
+                  <ImageView fitHeight="152.0" fitWidth="146.0" layoutX="373.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/images%20(2).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="373.0" layoutY="236.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\$72,839+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="373.0" layoutY="266.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Accura RDX 2021" />
+                  <ImageView fitHeight="152.0" fitWidth="146.0" layoutX="373.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/download%20(6).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="373.0" layoutY="384.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\$36,839+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="372.0" layoutY="419.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Accura TLX 2021" />
+                  <ImageView fitHeight="152.0" fitWidth="146.0" layoutX="372.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/download%20(5).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="372.0" layoutY="537.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="\$26,839+ Tax" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="88.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Available Cars" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="373.0" layoutY="88.0" prefHeight="18.0" prefWidth="146.0" style="-fx-background-color: gray;" text="Available Cars" />
+                  <ImageView fitHeight="97.0" fitWidth="146.0" layoutX="54.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/https___hypebeast.com_image_2021_04_mugen-honda-hr-v-vezel-jdm-japanese-import-suv-4x4-family-car-tuned-custom-body-kit-rims-0.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="97.0" fitWidth="146.0" layoutX="54.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/download%20(1).jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox layoutX="530.0" layoutY="87.0" prefHeight="466.0" prefWidth="354.0" style="-fx-background-color: gray;" />
+                  <Button layoutX="54.0" layoutY="575.0" mnemonicParsing="false" onAction="#back" text="Go Back" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
